@@ -1,0 +1,28 @@
+<-- git commands for once in every new repository: -->
+git config --global user.name "Your Name"
+git config --global user.email "your_email@example.com"
+
+git init
+git branch -M main
+git remote add origin https://github.com/username/repository.git
+git push -u origin main
+
+<-- git command in every single change of a file/folder -->
+git add .
+git commit -m "Your commit message"
+git push
+
+##সবচেয়ে বেশি ব্যবহৃত Git Commands
+git status          # কোন ফাইল পরিবর্তন হয়েছে দেখাবে
+git add .           # সব পরিবর্তন stage করবে
+git commit -m "..." # Commit করবে
+git push            # GitHub-এ আপলোড করবে
+git pull            # GitHub থেকে নতুন update আনবে
+git log --oneline   # Commit history দেখাবে
+
+সংক্ষেপে মনে রাখো: প্রতিদিন কাজ করার সময় সাধারণত এই ৪টিই যথেষ্ট:
+
+git status
+git add .
+git commit -m "Your message"
+git push
